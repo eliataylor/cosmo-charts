@@ -5,10 +5,11 @@ import GraphType from "./GraphType";
 
 interface Props {
     apiData: any;
+    graph_type:string
 }
 
-const EndpointContainer: React.FC<Props> = ({ apiData }) => {
-    const [selectedChart, setSelectedChart] = useState<string>('');
+const EndpointContainer: React.FC<Props> = ({ apiData, graph_type }) => {
+    const [selectedChart, setSelectedChart] = useState<string>(graph_type);
 
     const handleChange = (value: string) => {
         setSelectedChart(value);
@@ -16,7 +17,7 @@ const EndpointContainer: React.FC<Props> = ({ apiData }) => {
 
     return (
         <Box border={1} borderColor="primary.main" borderRadius={1} p={1} mt={4}>
-            <GraphType value={''} onSelect={handleChange} />
+            <GraphType value={graph_type} onSelect={handleChange} />
             <JsonViewer apiData={apiData} graphType={selectedChart} />
         </Box>
     );

@@ -5,6 +5,8 @@ import EndpointContainer from "./EndpointContainer";
 interface DataItem {
     path: string;
     title: string;
+    machine_name: string;
+    graph_types:string[];
 }
 
 interface Props {
@@ -61,7 +63,7 @@ const App: React.FC<Props> = ({ endpoints }) => {
             <Grid container justifyContent={'space-between'} spacing={2}>
                 {selectedItems.map(item => (
                     <Grid item xs={12} sm={6} md={4}  key={item.path} >
-                        <EndpointContainer apiData={fetchedData.find(data => data.path === item.path)?.data} />
+                        <EndpointContainer graph_type={item.graph_types[0]} apiData={fetchedData.find(data => data.path === item.path)?.data} />
                     </Grid>
                 ))}
             </Grid>
