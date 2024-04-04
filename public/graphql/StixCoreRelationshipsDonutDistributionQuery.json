@@ -1,0 +1,102 @@
+{
+  "data": {
+    "stixCoreRelationshipsDistribution": [
+      {
+        "label": "c469138c-79eb-482d-a613-690e0d57aa37",
+        "value": 184,
+        "entity": {
+          "__typename": "Country",
+          "__isBasicObject": "Country",
+          "entity_type": "Country",
+          "name": "United States of America",
+          "description": "",
+          "id": "c469138c-79eb-482d-a613-690e0d57aa37"
+        }
+      },
+      {
+        "label": "c851e1b2-52e7-4d8f-825d-76c83dd205f8",
+        "value": 126,
+        "entity": {
+          "__typename": "Country",
+          "__isBasicObject": "Country",
+          "entity_type": "Country",
+          "name": "Ukraine",
+          "description": "",
+          "id": "c851e1b2-52e7-4d8f-825d-76c83dd205f8"
+        }
+      },
+      {
+        "label": "1dc0c1a5-66e1-45ea-a18a-922863df323f",
+        "value": 77,
+        "entity": {
+          "__typename": "Country",
+          "__isBasicObject": "Country",
+          "entity_type": "Country",
+          "name": "Brazil",
+          "description": "",
+          "id": "1dc0c1a5-66e1-45ea-a18a-922863df323f"
+        }
+      },
+      {
+        "label": "a031e0e0-9f56-4b61-9cf5-c738735e7955",
+        "value": 77,
+        "entity": {
+          "__typename": "Country",
+          "__isBasicObject": "Country",
+          "entity_type": "Country",
+          "name": "India",
+          "description": "",
+          "id": "a031e0e0-9f56-4b61-9cf5-c738735e7955"
+        }
+      },
+      {
+        "label": "843b94aa-3251-4c9c-ae67-1aba6fada35f",
+        "value": 75,
+        "entity": {
+          "__typename": "Country",
+          "__isBasicObject": "Country",
+          "entity_type": "Country",
+          "name": "Israel",
+          "description": "",
+          "id": "843b94aa-3251-4c9c-ae67-1aba6fada35f"
+        }
+      },
+      {
+        "label": "117e61a4-9750-43cd-80f4-a7283084df8f",
+        "value": 73,
+        "entity": {
+          "__typename": "Country",
+          "__isBasicObject": "Country",
+          "entity_type": "Country",
+          "name": "Italy",
+          "description": "",
+          "id": "117e61a4-9750-43cd-80f4-a7283084df8f"
+        }
+      },
+      {
+        "label": "a0d1a511-7163-4537-a18b-58dafcdcd028",
+        "value": 70,
+        "entity": {
+          "__typename": "Country",
+          "__isBasicObject": "Country",
+          "entity_type": "Country",
+          "name": "Poland",
+          "description": "",
+          "id": "a0d1a511-7163-4537-a18b-58dafcdcd028"
+        }
+      },
+      {
+        "label": "4b1b806b-822c-4dd5-8ad3-c970b5bd703a",
+        "value": 67,
+        "entity": {
+          "__typename": "Country",
+          "__isBasicObject": "Country",
+          "entity_type": "Country",
+          "name": "Russian Federation",
+          "description": "",
+          "id": "4b1b806b-822c-4dd5-8ad3-c970b5bd703a"
+        }
+      }
+    ]
+  }
+}

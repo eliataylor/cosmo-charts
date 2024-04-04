@@ -1,0 +1,1260 @@
+{
+  "data": {
+    "stixCoreRelationships": {
+      "edges": [
+        {
+          "node": {
+            "id": "8cd9d2b0-4079-4a6a-a9e8-fb7cd42fe4b8",
+            "entity_type": "targets",
+            "parent_types": [
+              "basic-relationship",
+              "stix-relationship",
+              "stix-core-relationship"
+            ],
+            "relationship_type": "targets",
+            "confidence": 15,
+            "start_time": "1970-01-01T00:00:00.000Z",
+            "stop_time": "5138-11-16T09:46:40.000Z",
+            "description": "",
+            "is_inferred": false,
+            "created": "2024-03-25T13:37:27.230Z",
+            "x_opencti_inferences": null,
+            "from": {
+              "__typename": "Malware",
+              "__isStixDomainObject": "Malware",
+              "id": "6548bf39-1a70-49d5-933e-ebf195729db1",
+              "entity_type": "Malware",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object"
+              ],
+              "created_at": "2024-03-25T13:37:29.288Z",
+              "updated_at": "2024-03-25T13:37:29.517Z",
+              "objectLabel": {
+                "edges": []
+              },
+              "name": "GOREVERSE",
+              "description": ""
+            },
+            "to": {
+              "__typename": "Country",
+              "__isStixDomainObject": "Country",
+              "id": "e724eaf0-0a6f-4b74-ae00-11ca68dcd8fb",
+              "entity_type": "Country",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object",
+                "Location"
+              ],
+              "created_at": "2023-01-30T11:00:31.345Z",
+              "updated_at": "2024-01-28T10:46:11.134Z",
+              "objectLabel": {
+                "edges": []
+              },
+              "name": "China",
+              "description": ""
+            },
+            "killChainPhases": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "0558d37b-eb14-4f30-b540-5c95a4c0cd8e",
+            "entity_type": "targets",
+            "parent_types": [
+              "basic-relationship",
+              "stix-relationship",
+              "stix-core-relationship"
+            ],
+            "relationship_type": "targets",
+            "confidence": 15,
+            "start_time": "1970-01-01T00:00:00.000Z",
+            "stop_time": "5138-11-16T09:46:40.000Z",
+            "description": "",
+            "is_inferred": false,
+            "created": "2024-03-25T13:37:27.229Z",
+            "x_opencti_inferences": null,
+            "from": {
+              "__typename": "Malware",
+              "__isStixDomainObject": "Malware",
+              "id": "3ba10a66-17b9-4383-9175-a5c91323595f",
+              "entity_type": "Malware",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object"
+              ],
+              "created_at": "2024-03-25T13:37:29.282Z",
+              "updated_at": "2024-03-25T13:37:29.512Z",
+              "objectLabel": {
+                "edges": []
+              },
+              "name": "SNOWLIGHT",
+              "description": ""
+            },
+            "to": {
+              "__typename": "Country",
+              "__isStixDomainObject": "Country",
+              "id": "e724eaf0-0a6f-4b74-ae00-11ca68dcd8fb",
+              "entity_type": "Country",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object",
+                "Location"
+              ],
+              "created_at": "2023-01-30T11:00:31.345Z",
+              "updated_at": "2024-01-28T10:46:11.134Z",
+              "objectLabel": {
+                "edges": []
+              },
+              "name": "China",
+              "description": ""
+            },
+            "killChainPhases": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "6eebaba7-f418-4371-be03-6422fd148155",
+            "entity_type": "targets",
+            "parent_types": [
+              "basic-relationship",
+              "stix-relationship",
+              "stix-core-relationship"
+            ],
+            "relationship_type": "targets",
+            "confidence": 15,
+            "start_time": "1970-01-01T00:00:00.000Z",
+            "stop_time": "5138-11-16T09:46:40.000Z",
+            "description": "",
+            "is_inferred": false,
+            "created": "2024-03-13T14:59:08.018Z",
+            "x_opencti_inferences": null,
+            "from": {
+              "__typename": "Malware",
+              "__isStixDomainObject": "Malware",
+              "id": "0a619e6a-3836-4ba9-b460-68785908e801",
+              "entity_type": "Malware",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object"
+              ],
+              "created_at": "2024-03-13T14:59:10.479Z",
+              "updated_at": "2024-03-13T14:59:10.752Z",
+              "objectLabel": {
+                "edges": []
+              },
+              "name": "DPysMac64",
+              "description": ""
+            },
+            "to": {
+              "__typename": "Country",
+              "__isStixDomainObject": "Country",
+              "id": "e724eaf0-0a6f-4b74-ae00-11ca68dcd8fb",
+              "entity_type": "Country",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object",
+                "Location"
+              ],
+              "created_at": "2023-01-30T11:00:31.345Z",
+              "updated_at": "2024-01-28T10:46:11.134Z",
+              "objectLabel": {
+                "edges": []
+              },
+              "name": "China",
+              "description": ""
+            },
+            "killChainPhases": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "964a638b-e238-4ae8-9243-ba7ac7042188",
+            "entity_type": "targets",
+            "parent_types": [
+              "basic-relationship",
+              "stix-relationship",
+              "stix-core-relationship"
+            ],
+            "relationship_type": "targets",
+            "confidence": 15,
+            "start_time": "1970-01-01T00:00:00.000Z",
+            "stop_time": "5138-11-16T09:46:40.000Z",
+            "description": "",
+            "is_inferred": false,
+            "created": "2024-03-13T14:59:08.017Z",
+            "x_opencti_inferences": null,
+            "from": {
+              "__typename": "Malware",
+              "__isStixDomainObject": "Malware",
+              "id": "b3bcf8aa-cf39-4423-b0e7-149d5042b40a",
+              "entity_type": "Malware",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object"
+              ],
+              "created_at": "2021-12-08T21:47:22.227Z",
+              "updated_at": "2024-04-01T09:45:52.571Z",
+              "objectLabel": {
+                "edges": []
+              },
+              "name": "macos",
+              "description": ""
+            },
+            "to": {
+              "__typename": "Country",
+              "__isStixDomainObject": "Country",
+              "id": "e724eaf0-0a6f-4b74-ae00-11ca68dcd8fb",
+              "entity_type": "Country",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object",
+                "Location"
+              ],
+              "created_at": "2023-01-30T11:00:31.345Z",
+              "updated_at": "2024-01-28T10:46:11.134Z",
+              "objectLabel": {
+                "edges": []
+              },
+              "name": "China",
+              "description": ""
+            },
+            "killChainPhases": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "53608f49-5f8d-4eee-8a8e-223a7ceba3ce",
+            "entity_type": "targets",
+            "parent_types": [
+              "basic-relationship",
+              "stix-relationship",
+              "stix-core-relationship"
+            ],
+            "relationship_type": "targets",
+            "confidence": 15,
+            "start_time": "1970-01-01T00:00:00.000Z",
+            "stop_time": "5138-11-16T09:46:40.000Z",
+            "description": "",
+            "is_inferred": false,
+            "created": "2024-03-06T15:55:41.552Z",
+            "x_opencti_inferences": null,
+            "from": {
+              "__typename": "Malware",
+              "__isStixDomainObject": "Malware",
+              "id": "66a0c766-7b05-4332-83f2-88ab34f08db3",
+              "entity_type": "Malware",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object"
+              ],
+              "created_at": "2024-03-06T15:56:34.958Z",
+              "updated_at": "2024-03-06T15:56:35.013Z",
+              "objectLabel": {
+                "edges": []
+              },
+              "name": "WogRAT",
+              "description": ""
+            },
+            "to": {
+              "__typename": "Country",
+              "__isStixDomainObject": "Country",
+              "id": "e724eaf0-0a6f-4b74-ae00-11ca68dcd8fb",
+              "entity_type": "Country",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object",
+                "Location"
+              ],
+              "created_at": "2023-01-30T11:00:31.345Z",
+              "updated_at": "2024-01-28T10:46:11.134Z",
+              "objectLabel": {
+                "edges": []
+              },
+              "name": "China",
+              "description": ""
+            },
+            "killChainPhases": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "114c26bc-cc1a-4381-a55c-1c9f35afd279",
+            "entity_type": "targets",
+            "parent_types": [
+              "basic-relationship",
+              "stix-relationship",
+              "stix-core-relationship"
+            ],
+            "relationship_type": "targets",
+            "confidence": 15,
+            "start_time": "1970-01-01T00:00:00.000Z",
+            "stop_time": "5138-11-16T09:46:40.000Z",
+            "description": "",
+            "is_inferred": false,
+            "created": "2024-02-19T14:36:28.477Z",
+            "x_opencti_inferences": null,
+            "from": {
+              "__typename": "Malware",
+              "__isStixDomainObject": "Malware",
+              "id": "9d512f92-adad-4367-be4f-d6d40812670e",
+              "entity_type": "Malware",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object"
+              ],
+              "created_at": "2023-05-11T15:46:48.848Z",
+              "updated_at": "2023-05-11T15:46:48.960Z",
+              "objectLabel": {
+                "edges": []
+              },
+              "name": "Mario",
+              "description": ""
+            },
+            "to": {
+              "__typename": "Country",
+              "__isStixDomainObject": "Country",
+              "id": "e724eaf0-0a6f-4b74-ae00-11ca68dcd8fb",
+              "entity_type": "Country",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object",
+                "Location"
+              ],
+              "created_at": "2023-01-30T11:00:31.345Z",
+              "updated_at": "2024-01-28T10:46:11.134Z",
+              "objectLabel": {
+                "edges": []
+              },
+              "name": "China",
+              "description": ""
+            },
+            "killChainPhases": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "4abf93a1-0c05-4a2c-96f2-a91ae87c5023",
+            "entity_type": "targets",
+            "parent_types": [
+              "basic-relationship",
+              "stix-relationship",
+              "stix-core-relationship"
+            ],
+            "relationship_type": "targets",
+            "confidence": 15,
+            "start_time": "1970-01-01T00:00:00.000Z",
+            "stop_time": "5138-11-16T09:46:40.000Z",
+            "description": "",
+            "is_inferred": false,
+            "created": "2024-02-19T14:36:28.475Z",
+            "x_opencti_inferences": null,
+            "from": {
+              "__typename": "Malware",
+              "__isStixDomainObject": "Malware",
+              "id": "d9c315a1-9aa0-4ef2-a454-a046ff69c309",
+              "entity_type": "Malware",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object"
+              ],
+              "created_at": "2024-02-19T14:36:30.032Z",
+              "updated_at": "2024-02-19T14:36:30.377Z",
+              "objectLabel": {
+                "edges": []
+              },
+              "name": "MrAgent",
+              "description": ""
+            },
+            "to": {
+              "__typename": "Country",
+              "__isStixDomainObject": "Country",
+              "id": "e724eaf0-0a6f-4b74-ae00-11ca68dcd8fb",
+              "entity_type": "Country",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object",
+                "Location"
+              ],
+              "created_at": "2023-01-30T11:00:31.345Z",
+              "updated_at": "2024-01-28T10:46:11.134Z",
+              "objectLabel": {
+                "edges": []
+              },
+              "name": "China",
+              "description": ""
+            },
+            "killChainPhases": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "f13b45b8-942c-4482-877d-e49e8b3c592f",
+            "entity_type": "targets",
+            "parent_types": [
+              "basic-relationship",
+              "stix-relationship",
+              "stix-core-relationship"
+            ],
+            "relationship_type": "targets",
+            "confidence": 15,
+            "start_time": "1970-01-01T00:00:00.000Z",
+            "stop_time": "5138-11-16T09:46:40.000Z",
+            "description": "",
+            "is_inferred": false,
+            "created": "2023-12-05T14:38:04.794Z",
+            "x_opencti_inferences": null,
+            "from": {
+              "__typename": "Malware",
+              "__isStixDomainObject": "Malware",
+              "id": "4393399a-18f2-4096-a101-f1db78063461",
+              "entity_type": "Malware",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object"
+              ],
+              "created_at": "2023-02-09T09:12:27.171Z",
+              "updated_at": "2024-03-09T18:49:41.199Z",
+              "objectLabel": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "980ae654-cb4a-41c5-bf93-82a3599a30a4",
+                      "value": "malware",
+                      "color": "#d5cbb6"
+                    }
+                  }
+                ]
+              },
+              "name": "Emotet",
+              "description": "[Emotet](https://attack.mitre.org/software/S0367) is a modular malware variant which is primarily used as a downloader for other malware variants such as [TrickBot](https://attack.mitre.org/software/S0266) and [IcedID](https://attack.mitre.org/software/S0483). Emotet first emerged in June 2014 and has been primarily used to target the banking sector. (Citation: Trend Micro Banking Malware Jan 2019)"
+            },
+            "to": {
+              "__typename": "Country",
+              "__isStixDomainObject": "Country",
+              "id": "e724eaf0-0a6f-4b74-ae00-11ca68dcd8fb",
+              "entity_type": "Country",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object",
+                "Location"
+              ],
+              "created_at": "2023-01-30T11:00:31.345Z",
+              "updated_at": "2024-01-28T10:46:11.134Z",
+              "objectLabel": {
+                "edges": []
+              },
+              "name": "China",
+              "description": ""
+            },
+            "killChainPhases": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "cd89d6c4-d231-4a39-91cb-33cd617b0aa1",
+            "entity_type": "targets",
+            "parent_types": [
+              "basic-relationship",
+              "stix-relationship",
+              "stix-core-relationship"
+            ],
+            "relationship_type": "targets",
+            "confidence": 15,
+            "start_time": "1970-01-01T00:00:00.000Z",
+            "stop_time": "5138-11-16T09:46:40.000Z",
+            "description": "",
+            "is_inferred": false,
+            "created": "2023-12-05T14:38:04.786Z",
+            "x_opencti_inferences": null,
+            "from": {
+              "__typename": "Malware",
+              "__isStixDomainObject": "Malware",
+              "id": "ff95d515-4bae-4db6-b9cd-1593f0a05755",
+              "entity_type": "Malware",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object"
+              ],
+              "created_at": "2023-01-26T10:28:19.629Z",
+              "updated_at": "2024-04-02T18:53:32.698Z",
+              "objectLabel": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "980ae654-cb4a-41c5-bf93-82a3599a30a4",
+                      "value": "malware",
+                      "color": "#d5cbb6"
+                    }
+                  }
+                ]
+              },
+              "name": "Cobalt Strike",
+              "description": "[Cobalt Strike](https://attack.mitre.org/software/S0154) is a commercial, full-featured, remote access tool that bills itself as “adversary simulation software designed to execute targeted attacks and emulate the post-exploitation actions of advanced threat actors”. Cobalt Strike’s interactive post-exploit capabilities cover the full range of ATT&CK tactics, all executed within a single, integrated system.(Citation: cobaltstrike manual)\n\nIn addition to its own capabilities, [Cobalt Strike](https://attack.mitre.org/software/S0154) leverages the capabilities of other well-known tools such as Metasploit and [Mimikatz](https://attack.mitre.org/software/S0002).(Citation: cobaltstrike manual)"
+            },
+            "to": {
+              "__typename": "Country",
+              "__isStixDomainObject": "Country",
+              "id": "e724eaf0-0a6f-4b74-ae00-11ca68dcd8fb",
+              "entity_type": "Country",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object",
+                "Location"
+              ],
+              "created_at": "2023-01-30T11:00:31.345Z",
+              "updated_at": "2024-01-28T10:46:11.134Z",
+              "objectLabel": {
+                "edges": []
+              },
+              "name": "China",
+              "description": ""
+            },
+            "killChainPhases": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "fe193015-59f5-471f-9650-671a9dd723c7",
+            "entity_type": "targets",
+            "parent_types": [
+              "basic-relationship",
+              "stix-relationship",
+              "stix-core-relationship"
+            ],
+            "relationship_type": "targets",
+            "confidence": 15,
+            "start_time": "1970-01-01T00:00:00.000Z",
+            "stop_time": "5138-11-16T09:46:40.000Z",
+            "description": "",
+            "is_inferred": false,
+            "created": "2023-12-05T14:38:04.779Z",
+            "x_opencti_inferences": null,
+            "from": {
+              "__typename": "Malware",
+              "__isStixDomainObject": "Malware",
+              "id": "672c4131-64c0-4591-9b6c-393e6a521324",
+              "entity_type": "Malware",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object"
+              ],
+              "created_at": "2023-02-16T00:00:42.102Z",
+              "updated_at": "2024-03-27T18:10:45.562Z",
+              "objectLabel": {
+                "edges": []
+              },
+              "name": "Vidar",
+              "description": "Vidar is a forked malware based on Arkei. It seems this stealer is one of the first that is grabbing information on 2FA Software and Tor Browser."
+            },
+            "to": {
+              "__typename": "Country",
+              "__isStixDomainObject": "Country",
+              "id": "e724eaf0-0a6f-4b74-ae00-11ca68dcd8fb",
+              "entity_type": "Country",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object",
+                "Location"
+              ],
+              "created_at": "2023-01-30T11:00:31.345Z",
+              "updated_at": "2024-01-28T10:46:11.134Z",
+              "objectLabel": {
+                "edges": []
+              },
+              "name": "China",
+              "description": ""
+            },
+            "killChainPhases": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "aff69b5f-2200-4605-b7b1-32cc1d839436",
+            "entity_type": "targets",
+            "parent_types": [
+              "basic-relationship",
+              "stix-relationship",
+              "stix-core-relationship"
+            ],
+            "relationship_type": "targets",
+            "confidence": 15,
+            "start_time": "1970-01-01T00:00:00.000Z",
+            "stop_time": "5138-11-16T09:46:40.000Z",
+            "description": "",
+            "is_inferred": false,
+            "created": "2023-12-05T14:38:04.772Z",
+            "x_opencti_inferences": null,
+            "from": {
+              "__typename": "Malware",
+              "__isStixDomainObject": "Malware",
+              "id": "21a9bea3-e079-4733-8ffe-08a58187ee89",
+              "entity_type": "Malware",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object"
+              ],
+              "created_at": "2022-03-24T16:51:59.009Z",
+              "updated_at": "2024-01-28T10:44:52.956Z",
+              "objectLabel": {
+                "edges": []
+              },
+              "name": "Arkei",
+              "description": ""
+            },
+            "to": {
+              "__typename": "Country",
+              "__isStixDomainObject": "Country",
+              "id": "e724eaf0-0a6f-4b74-ae00-11ca68dcd8fb",
+              "entity_type": "Country",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object",
+                "Location"
+              ],
+              "created_at": "2023-01-30T11:00:31.345Z",
+              "updated_at": "2024-01-28T10:46:11.134Z",
+              "objectLabel": {
+                "edges": []
+              },
+              "name": "China",
+              "description": ""
+            },
+            "killChainPhases": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "5c2c6e25-c4d6-452f-a7e9-e6d1ad22e3fb",
+            "entity_type": "targets",
+            "parent_types": [
+              "basic-relationship",
+              "stix-relationship",
+              "stix-core-relationship"
+            ],
+            "relationship_type": "targets",
+            "confidence": 15,
+            "start_time": "1970-01-01T00:00:00.000Z",
+            "stop_time": "5138-11-16T09:46:40.000Z",
+            "description": "",
+            "is_inferred": false,
+            "created": "2023-12-05T14:38:04.765Z",
+            "x_opencti_inferences": null,
+            "from": {
+              "__typename": "Malware",
+              "__isStixDomainObject": "Malware",
+              "id": "3e0ca4e7-78d1-40c6-b9ef-fa2b0e16be0a",
+              "entity_type": "Malware",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object"
+              ],
+              "created_at": "2023-03-01T18:44:29.259Z",
+              "updated_at": "2024-03-01T14:22:35.140Z",
+              "objectLabel": {
+                "edges": []
+              },
+              "name": "lumma",
+              "description": ""
+            },
+            "to": {
+              "__typename": "Country",
+              "__isStixDomainObject": "Country",
+              "id": "e724eaf0-0a6f-4b74-ae00-11ca68dcd8fb",
+              "entity_type": "Country",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object",
+                "Location"
+              ],
+              "created_at": "2023-01-30T11:00:31.345Z",
+              "updated_at": "2024-01-28T10:46:11.134Z",
+              "objectLabel": {
+                "edges": []
+              },
+              "name": "China",
+              "description": ""
+            },
+            "killChainPhases": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "94159979-6868-4115-8bb4-9c050e547ebf",
+            "entity_type": "targets",
+            "parent_types": [
+              "basic-relationship",
+              "stix-relationship",
+              "stix-core-relationship"
+            ],
+            "relationship_type": "targets",
+            "confidence": 15,
+            "start_time": "1970-01-01T00:00:00.000Z",
+            "stop_time": "5138-11-16T09:46:40.000Z",
+            "description": "",
+            "is_inferred": false,
+            "created": "2023-12-05T14:38:04.758Z",
+            "x_opencti_inferences": null,
+            "from": {
+              "__typename": "Malware",
+              "__isStixDomainObject": "Malware",
+              "id": "c07098bd-9921-4999-af5f-bc62129c1d5f",
+              "entity_type": "Malware",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object"
+              ],
+              "created_at": "2023-02-08T16:11:43.869Z",
+              "updated_at": "2024-01-28T10:46:46.588Z",
+              "objectLabel": {
+                "edges": []
+              },
+              "name": "vbs",
+              "description": ""
+            },
+            "to": {
+              "__typename": "Country",
+              "__isStixDomainObject": "Country",
+              "id": "e724eaf0-0a6f-4b74-ae00-11ca68dcd8fb",
+              "entity_type": "Country",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object",
+                "Location"
+              ],
+              "created_at": "2023-01-30T11:00:31.345Z",
+              "updated_at": "2024-01-28T10:46:11.134Z",
+              "objectLabel": {
+                "edges": []
+              },
+              "name": "China",
+              "description": ""
+            },
+            "killChainPhases": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "95f75594-06a2-4bc4-8147-2831942ff6b4",
+            "entity_type": "targets",
+            "parent_types": [
+              "basic-relationship",
+              "stix-relationship",
+              "stix-core-relationship"
+            ],
+            "relationship_type": "targets",
+            "confidence": 15,
+            "start_time": "1970-01-01T00:00:00.000Z",
+            "stop_time": "5138-11-16T09:46:40.000Z",
+            "description": "",
+            "is_inferred": false,
+            "created": "2023-12-05T14:38:04.752Z",
+            "x_opencti_inferences": null,
+            "from": {
+              "__typename": "Malware",
+              "__isStixDomainObject": "Malware",
+              "id": "6b2edefd-a23a-4357-aea2-6839ba0b595e",
+              "entity_type": "Malware",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object"
+              ],
+              "created_at": "2023-12-05T14:39:57.842Z",
+              "updated_at": "2023-12-05T14:39:58.775Z",
+              "objectLabel": {
+                "edges": []
+              },
+              "name": "GetLucky",
+              "description": ""
+            },
+            "to": {
+              "__typename": "Country",
+              "__isStixDomainObject": "Country",
+              "id": "e724eaf0-0a6f-4b74-ae00-11ca68dcd8fb",
+              "entity_type": "Country",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object",
+                "Location"
+              ],
+              "created_at": "2023-01-30T11:00:31.345Z",
+              "updated_at": "2024-01-28T10:46:11.134Z",
+              "objectLabel": {
+                "edges": []
+              },
+              "name": "China",
+              "description": ""
+            },
+            "killChainPhases": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "3ec6a9e4-cb31-4f23-a93c-2dcdd1ffe4b2",
+            "entity_type": "targets",
+            "parent_types": [
+              "basic-relationship",
+              "stix-relationship",
+              "stix-core-relationship"
+            ],
+            "relationship_type": "targets",
+            "confidence": 15,
+            "start_time": "1970-01-01T00:00:00.000Z",
+            "stop_time": "5138-11-16T09:46:40.000Z",
+            "description": "",
+            "is_inferred": false,
+            "created": "2023-12-05T14:38:04.745Z",
+            "x_opencti_inferences": null,
+            "from": {
+              "__typename": "Malware",
+              "__isStixDomainObject": "Malware",
+              "id": "c38aea8d-e771-445c-a6b6-160e7e77aa03",
+              "entity_type": "Malware",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object"
+              ],
+              "created_at": "2023-12-05T14:39:57.676Z",
+              "updated_at": "2023-12-05T14:39:57.805Z",
+              "objectLabel": {
+                "edges": []
+              },
+              "name": "BL00DY",
+              "description": ""
+            },
+            "to": {
+              "__typename": "Country",
+              "__isStixDomainObject": "Country",
+              "id": "e724eaf0-0a6f-4b74-ae00-11ca68dcd8fb",
+              "entity_type": "Country",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object",
+                "Location"
+              ],
+              "created_at": "2023-01-30T11:00:31.345Z",
+              "updated_at": "2024-01-28T10:46:11.134Z",
+              "objectLabel": {
+                "edges": []
+              },
+              "name": "China",
+              "description": ""
+            },
+            "killChainPhases": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "de1b0760-098d-4139-bec4-e06915cda975",
+            "entity_type": "targets",
+            "parent_types": [
+              "basic-relationship",
+              "stix-relationship",
+              "stix-core-relationship"
+            ],
+            "relationship_type": "targets",
+            "confidence": 15,
+            "start_time": "1970-01-01T00:00:00.000Z",
+            "stop_time": "5138-11-16T09:46:40.000Z",
+            "description": "",
+            "is_inferred": false,
+            "created": "2023-12-05T14:38:04.738Z",
+            "x_opencti_inferences": null,
+            "from": {
+              "__typename": "Malware",
+              "__isStixDomainObject": "Malware",
+              "id": "a6003455-292a-48cb-bcde-bb3094d73099",
+              "entity_type": "Malware",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object"
+              ],
+              "created_at": "2021-08-10T21:22:54.364Z",
+              "updated_at": "2024-03-09T18:50:32.938Z",
+              "objectLabel": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "980ae654-cb4a-41c5-bf93-82a3599a30a4",
+                      "value": "malware",
+                      "color": "#d5cbb6"
+                    }
+                  }
+                ]
+              },
+              "name": "Cuba",
+              "description": "\n[Cuba](https://attack.mitre.org/software/S0625) is a Windows-based ransomware family that has been used against financial institutions, technology, and logistics organizations in North and South America as well as Europe since at least December 2019.(Citation: McAfee Cuba April 2021)"
+            },
+            "to": {
+              "__typename": "Country",
+              "__isStixDomainObject": "Country",
+              "id": "e724eaf0-0a6f-4b74-ae00-11ca68dcd8fb",
+              "entity_type": "Country",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object",
+                "Location"
+              ],
+              "created_at": "2023-01-30T11:00:31.345Z",
+              "updated_at": "2024-01-28T10:46:11.134Z",
+              "objectLabel": {
+                "edges": []
+              },
+              "name": "China",
+              "description": ""
+            },
+            "killChainPhases": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "53956632-0b4f-4882-aa16-6c7e0ca5975f",
+            "entity_type": "targets",
+            "parent_types": [
+              "basic-relationship",
+              "stix-relationship",
+              "stix-core-relationship"
+            ],
+            "relationship_type": "targets",
+            "confidence": 15,
+            "start_time": "1970-01-01T00:00:00.000Z",
+            "stop_time": "5138-11-16T09:46:40.000Z",
+            "description": "",
+            "is_inferred": false,
+            "created": "2023-12-05T14:38:04.731Z",
+            "x_opencti_inferences": null,
+            "from": {
+              "__typename": "Malware",
+              "__isStixDomainObject": "Malware",
+              "id": "ca9049c8-a09b-4e8c-98e2-8625fdf2e46d",
+              "entity_type": "Malware",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object"
+              ],
+              "created_at": "2023-02-15T23:32:37.103Z",
+              "updated_at": "2024-04-03T16:16:10.657Z",
+              "objectLabel": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "980ae654-cb4a-41c5-bf93-82a3599a30a4",
+                      "value": "malware",
+                      "color": "#d5cbb6"
+                    }
+                  }
+                ]
+              },
+              "name": "POISONPLUG.SHADOW",
+              "description": "[ShadowPad](https://attack.mitre.org/software/S0596) is a modular backdoor that was first identified in a supply chain compromise of the NetSarang software in mid-July 2017. The malware was originally thought to be exclusively used by [APT41](https://attack.mitre.org/groups/G0096), but has since been observed to be used by various Chinese threat activity groups. (Citation: Recorded Future RedEcho Feb 2021)(Citation: Securelist ShadowPad Aug 2017)(Citation: Kaspersky ShadowPad Aug 2017) "
+            },
+            "to": {
+              "__typename": "Country",
+              "__isStixDomainObject": "Country",
+              "id": "e724eaf0-0a6f-4b74-ae00-11ca68dcd8fb",
+              "entity_type": "Country",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object",
+                "Location"
+              ],
+              "created_at": "2023-01-30T11:00:31.345Z",
+              "updated_at": "2024-01-28T10:46:11.134Z",
+              "objectLabel": {
+                "edges": []
+              },
+              "name": "China",
+              "description": ""
+            },
+            "killChainPhases": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "25c514bd-ae59-4c75-86c1-25b214a66e4f",
+            "entity_type": "targets",
+            "parent_types": [
+              "basic-relationship",
+              "stix-relationship",
+              "stix-core-relationship"
+            ],
+            "relationship_type": "targets",
+            "confidence": 15,
+            "start_time": "1970-01-01T00:00:00.000Z",
+            "stop_time": "5138-11-16T09:46:40.000Z",
+            "description": "",
+            "is_inferred": false,
+            "created": "2023-12-05T14:38:04.727Z",
+            "x_opencti_inferences": null,
+            "from": {
+              "__typename": "Malware",
+              "__isStixDomainObject": "Malware",
+              "id": "9110e89b-72f5-4243-ac8b-dab675c00af8",
+              "entity_type": "Malware",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object"
+              ],
+              "created_at": "2022-04-22T06:59:57.345Z",
+              "updated_at": "2024-01-28T10:46:34.299Z",
+              "objectLabel": {
+                "edges": []
+              },
+              "name": "Nokoyawa",
+              "description": ""
+            },
+            "to": {
+              "__typename": "Country",
+              "__isStixDomainObject": "Country",
+              "id": "e724eaf0-0a6f-4b74-ae00-11ca68dcd8fb",
+              "entity_type": "Country",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object",
+                "Location"
+              ],
+              "created_at": "2023-01-30T11:00:31.345Z",
+              "updated_at": "2024-01-28T10:46:11.134Z",
+              "objectLabel": {
+                "edges": []
+              },
+              "name": "China",
+              "description": ""
+            },
+            "killChainPhases": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "b9ab1479-1d0a-4db0-8e2b-c7250429801d",
+            "entity_type": "targets",
+            "parent_types": [
+              "basic-relationship",
+              "stix-relationship",
+              "stix-core-relationship"
+            ],
+            "relationship_type": "targets",
+            "confidence": 15,
+            "start_time": "1970-01-01T00:00:00.000Z",
+            "stop_time": "5138-11-16T09:46:40.000Z",
+            "description": "",
+            "is_inferred": false,
+            "created": "2023-12-05T14:38:04.720Z",
+            "x_opencti_inferences": null,
+            "from": {
+              "__typename": "Malware",
+              "__isStixDomainObject": "Malware",
+              "id": "8c909d4d-beb9-40ad-aef6-e46a587d0682",
+              "entity_type": "Malware",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object"
+              ],
+              "created_at": "2023-08-10T22:04:09.724Z",
+              "updated_at": "2023-12-05T14:39:54.554Z",
+              "objectLabel": {
+                "edges": []
+              },
+              "name": "DroxiDat",
+              "description": ""
+            },
+            "to": {
+              "__typename": "Country",
+              "__isStixDomainObject": "Country",
+              "id": "e724eaf0-0a6f-4b74-ae00-11ca68dcd8fb",
+              "entity_type": "Country",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object",
+                "Location"
+              ],
+              "created_at": "2023-01-30T11:00:31.345Z",
+              "updated_at": "2024-01-28T10:46:11.134Z",
+              "objectLabel": {
+                "edges": []
+              },
+              "name": "China",
+              "description": ""
+            },
+            "killChainPhases": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "6689d2c9-6dc4-45b1-a347-8731b0280d24",
+            "entity_type": "targets",
+            "parent_types": [
+              "basic-relationship",
+              "stix-relationship",
+              "stix-core-relationship"
+            ],
+            "relationship_type": "targets",
+            "confidence": 15,
+            "start_time": "1970-01-01T00:00:00.000Z",
+            "stop_time": "5138-11-16T09:46:40.000Z",
+            "description": "",
+            "is_inferred": false,
+            "created": "2023-12-05T14:38:04.690Z",
+            "x_opencti_inferences": null,
+            "from": {
+              "__typename": "Malware",
+              "__isStixDomainObject": "Malware",
+              "id": "4a2bc98c-c273-4efe-9f2e-feb92f0e6ca7",
+              "entity_type": "Malware",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object"
+              ],
+              "created_at": "2022-03-30T12:23:51.415Z",
+              "updated_at": "2024-01-28T10:44:32.385Z",
+              "objectLabel": {
+                "edges": []
+              },
+              "name": "mars",
+              "description": ""
+            },
+            "to": {
+              "__typename": "Country",
+              "__isStixDomainObject": "Country",
+              "id": "e724eaf0-0a6f-4b74-ae00-11ca68dcd8fb",
+              "entity_type": "Country",
+              "parent_types": [
+                "Basic-Object",
+                "Stix-Object",
+                "Stix-Core-Object",
+                "Stix-Domain-Object",
+                "Location"
+              ],
+              "created_at": "2023-01-30T11:00:31.345Z",
+              "updated_at": "2024-01-28T10:46:11.134Z",
+              "objectLabel": {
+                "edges": []
+              },
+              "name": "China",
+              "description": ""
+            },
+            "killChainPhases": {
+              "edges": []
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "data": {
+    "stixDomainObjects": {
+      "edges": [
+        {
+          "node": {
+            "__typename": "Report",
+            "id": "b81dae77-42b7-43d0-9b5b-7426a63ab727",
+            "entity_type": "Report",
+            "created": "2015-12-20T00:00:00.000Z",
+            "created_at": "2023-02-15T21:48:11.981Z",
+            "modified": "2024-04-02T20:57:16.717Z",
+            "name": "FireEye EPS Awakens Part 2",
+            "description": "Winters, R.. (2015, December 20). The EPS Awakens - Part 2. Retrieved January 22, 2016.",
+            "published": "2015-12-20T00:00:00.000Z",
+            "createdBy": {
+              "__typename": "Organization",
+              "__isIdentity": "Organization",
+              "id": "fef9ca5d-b964-4b27-a762-86bcd173dcfe",
+              "name": "FireEye",
+              "entity_type": "Organization"
+            },
+            "objectMarking": {
+              "edges": [
+                {
+                  "node": {
+                    "definition": "TLP:CLEAR",
+                    "id": "aa998c08-17e4-4dfa-945b-0399a43a318c"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "__typename": "Report",
+            "id": "5d492924-349b-4e52-805f-cd54536af613",
+            "entity_type": "Report",
+            "created": "2022-07-26T23:33:26.354Z",
+            "created_at": "2022-10-26T11:01:39.882Z",
+            "modified": "2023-02-21T12:55:31.621Z",
+            "name": "[MITRE ATT&CK] APT16 (G0023)",
+            "description": "",
+            "published": "2022-07-26T23:33:26.354Z",
+            "createdBy": null,
+            "objectMarking": {
+              "edges": [
+                {
+                  "node": {
+                    "definition": "TLP:CLEAR",
+                    "id": "aa998c08-17e4-4dfa-945b-0399a43a318c"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

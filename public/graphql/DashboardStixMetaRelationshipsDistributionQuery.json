@@ -1,0 +1,126 @@
+{
+  "data": {
+    "stixMetaRelationshipsDistribution": [
+      {
+        "label": "08ec5ab2-6e32-4423-851f-750e68cfa225",
+        "value": 2317,
+        "entity": {
+          "__typename": "Label",
+          "__isBasicObject": "Label",
+          "id": "08ec5ab2-6e32-4423-851f-750e68cfa225",
+          "entity_type": "Label",
+          "value": "phishing",
+          "color": "#9cfabd"
+        }
+      },
+      {
+        "label": "7457e32b-6e57-426b-a8fd-688a345466dc",
+        "value": 1661,
+        "entity": {
+          "__typename": "Label",
+          "__isBasicObject": "Label",
+          "id": "7457e32b-6e57-426b-a8fd-688a345466dc",
+          "entity_type": "Label",
+          "value": "apt",
+          "color": "#257a01"
+        }
+      },
+      {
+        "label": "0846f179-c8c8-43ae-8fb9-1d24e059bb07",
+        "value": 1276,
+        "entity": {
+          "__typename": "Label",
+          "__isBasicObject": "Label",
+          "id": "0846f179-c8c8-43ae-8fb9-1d24e059bb07",
+          "entity_type": "Label",
+          "value": "powershell",
+          "color": "#4bb05c"
+        }
+      },
+      {
+        "label": "76ddc0fe-de5a-47e0-a87f-7e5969fb1375",
+        "value": 1074,
+        "entity": {
+          "__typename": "Label",
+          "__isBasicObject": "Label",
+          "id": "76ddc0fe-de5a-47e0-a87f-7e5969fb1375",
+          "entity_type": "Label",
+          "value": "backdoor",
+          "color": "#155d72"
+        }
+      },
+      {
+        "label": "8ff52abd-cf81-4909-973d-e59682db8bc0",
+        "value": 1032,
+        "entity": {
+          "__typename": "Label",
+          "__isBasicObject": "Label",
+          "id": "8ff52abd-cf81-4909-973d-e59682db8bc0",
+          "entity_type": "Label",
+          "value": "cobalt strike",
+          "color": "#ff7396"
+        }
+      },
+      {
+        "label": "980ae654-cb4a-41c5-bf93-82a3599a30a4",
+        "value": 943,
+        "entity": {
+          "__typename": "Label",
+          "__isBasicObject": "Label",
+          "id": "980ae654-cb4a-41c5-bf93-82a3599a30a4",
+          "entity_type": "Label",
+          "value": "malware",
+          "color": "#d5cbb6"
+        }
+      },
+      {
+        "label": "b61aa477-7f1d-4c45-aaa6-d6027b965add",
+        "value": 932,
+        "entity": {
+          "__typename": "Label",
+          "__isBasicObject": "Label",
+          "id": "b61aa477-7f1d-4c45-aaa6-d6027b965add",
+          "entity_type": "Label",
+          "value": "ransomware",
+          "color": "#8fd671"
+        }
+      },
+      {
+        "label": "a2ea31ff-a63d-464d-a5a9-5cebab754552",
+        "value": 678,
+        "entity": {
+          "__typename": "Label",
+          "__isBasicObject": "Label",
+          "id": "a2ea31ff-a63d-464d-a5a9-5cebab754552",
+          "entity_type": "Label",
+          "value": "rat",
+          "color": "#25b801"
+        }
+      },
+      {
+        "label": "afb3a915-b465-4309-82d2-6981df037143",
+        "value": 591,
+        "entity": {
+          "__typename": "Label",
+          "__isBasicObject": "Label",
+          "id": "afb3a915-b465-4309-82d2-6981df037143",
+          "entity_type": "Label",
+          "value": "trojan",
+          "color": "#c6ae6c"
+        }
+      },
+      {
+        "label": "c166d8ff-17dc-4b0e-b767-33a0d43ac3c8",
+        "value": 537,
+        "entity": {
+          "__typename": "Label",
+          "__isBasicObject": "Label",
+          "id": "c166d8ff-17dc-4b0e-b767-33a0d43ac3c8",
+          "entity_type": "Label",
+          "value": "javascript",
+          "color": "#6dd943"
+        }
+      }
+    ]
+  }
+}

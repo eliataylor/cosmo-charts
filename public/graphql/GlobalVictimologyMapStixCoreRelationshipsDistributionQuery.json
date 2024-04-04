@@ -1,0 +1,338 @@
+{
+  "data": {
+    "stixCoreRelationshipsDistribution": [
+      {
+        "label": "c469138c-79eb-482d-a613-690e0d57aa37",
+        "value": 184,
+        "entity": {
+          "__typename": "Country",
+          "__isBasicObject": "Country",
+          "entity_type": "Country",
+          "name": "United States of America",
+          "x_opencti_aliases": [
+            "US",
+            "USA"
+          ],
+          "latitude": 37.09024,
+          "longitude": -95.712891,
+          "id": "c469138c-79eb-482d-a613-690e0d57aa37"
+        }
+      },
+      {
+        "label": "c851e1b2-52e7-4d8f-825d-76c83dd205f8",
+        "value": 126,
+        "entity": {
+          "__typename": "Country",
+          "__isBasicObject": "Country",
+          "entity_type": "Country",
+          "name": "Ukraine",
+          "x_opencti_aliases": [
+            "UKR",
+            "UA"
+          ],
+          "latitude": 48.379433,
+          "longitude": 31.16558,
+          "id": "c851e1b2-52e7-4d8f-825d-76c83dd205f8"
+        }
+      },
+      {
+        "label": "1dc0c1a5-66e1-45ea-a18a-922863df323f",
+        "value": 77,
+        "entity": {
+          "__typename": "Country",
+          "__isBasicObject": "Country",
+          "entity_type": "Country",
+          "name": "Brazil",
+          "x_opencti_aliases": [
+            "BR",
+            "BRA"
+          ],
+          "latitude": -14.235004,
+          "longitude": -51.92528,
+          "id": "1dc0c1a5-66e1-45ea-a18a-922863df323f"
+        }
+      },
+      {
+        "label": "a031e0e0-9f56-4b61-9cf5-c738735e7955",
+        "value": 77,
+        "entity": {
+          "__typename": "Country",
+          "__isBasicObject": "Country",
+          "entity_type": "Country",
+          "name": "India",
+          "x_opencti_aliases": [
+            "IND",
+            "IN"
+          ],
+          "latitude": 20.593684,
+          "longitude": 78.96288,
+          "id": "a031e0e0-9f56-4b61-9cf5-c738735e7955"
+        }
+      },
+      {
+        "label": "843b94aa-3251-4c9c-ae67-1aba6fada35f",
+        "value": 75,
+        "entity": {
+          "__typename": "Country",
+          "__isBasicObject": "Country",
+          "entity_type": "Country",
+          "name": "Israel",
+          "x_opencti_aliases": [
+            "IL",
+            "ISR"
+          ],
+          "latitude": 31.046051,
+          "longitude": 34.851612,
+          "id": "843b94aa-3251-4c9c-ae67-1aba6fada35f"
+        }
+      },
+      {
+        "label": "117e61a4-9750-43cd-80f4-a7283084df8f",
+        "value": 73,
+        "entity": {
+          "__typename": "Country",
+          "__isBasicObject": "Country",
+          "entity_type": "Country",
+          "name": "Italy",
+          "x_opencti_aliases": [
+            "ITA",
+            "IT"
+          ],
+          "latitude": 41.87194,
+          "longitude": 12.56738,
+          "id": "117e61a4-9750-43cd-80f4-a7283084df8f"
+        }
+      },
+      {
+        "label": "a0d1a511-7163-4537-a18b-58dafcdcd028",
+        "value": 70,
+        "entity": {
+          "__typename": "Country",
+          "__isBasicObject": "Country",
+          "entity_type": "Country",
+          "name": "Poland",
+          "x_opencti_aliases": [
+            "PL",
+            "POL"
+          ],
+          "latitude": 51.919438,
+          "longitude": 19.145136,
+          "id": "a0d1a511-7163-4537-a18b-58dafcdcd028"
+        }
+      },
+      {
+        "label": "4b1b806b-822c-4dd5-8ad3-c970b5bd703a",
+        "value": 67,
+        "entity": {
+          "__typename": "Country",
+          "__isBasicObject": "Country",
+          "entity_type": "Country",
+          "name": "Russian Federation",
+          "x_opencti_aliases": [
+            "RUS",
+            "RU"
+          ],
+          "latitude": 61.52401,
+          "longitude": 105.318756,
+          "id": "4b1b806b-822c-4dd5-8ad3-c970b5bd703a"
+        }
+      },
+      {
+        "label": "70913ed6-528a-4234-a9ba-9823f505ab6c",
+        "value": 67,
+        "entity": {
+          "__typename": "Country",
+          "__isBasicObject": "Country",
+          "entity_type": "Country",
+          "name": "Australia",
+          "x_opencti_aliases": [
+            "AUS",
+            "AU"
+          ],
+          "latitude": -25.274398,
+          "longitude": 133.775136,
+          "id": "70913ed6-528a-4234-a9ba-9823f505ab6c"
+        }
+      },
+      {
+        "label": "e724eaf0-0a6f-4b74-ae00-11ca68dcd8fb",
+        "value": 66,
+        "entity": {
+          "__typename": "Country",
+          "__isBasicObject": "Country",
+          "entity_type": "Country",
+          "name": "China",
+          "x_opencti_aliases": [
+            "CHN",
+            "CN"
+          ],
+          "latitude": 35.86166,
+          "longitude": 104.195397,
+          "id": "e724eaf0-0a6f-4b74-ae00-11ca68dcd8fb"
+        }
+      },
+      {
+        "label": "6f2fdc66-9f57-43c3-b309-5d4649b967e7",
+        "value": 57,
+        "entity": {
+          "__typename": "Country",
+          "__isBasicObject": "Country",
+          "entity_type": "Country",
+          "name": "Germany",
+          "x_opencti_aliases": [
+            "DE",
+            "DEU"
+          ],
+          "latitude": 51.165691,
+          "longitude": 10.451526,
+          "id": "6f2fdc66-9f57-43c3-b309-5d4649b967e7"
+        }
+      },
+      {
+        "label": "b99776b1-5edc-4f80-868f-c4deac7f8018",
+        "value": 56,
+        "entity": {
+          "__typename": "Country",
+          "__isBasicObject": "Country",
+          "entity_type": "Country",
+          "name": "Türkiye",
+          "x_opencti_aliases": null,
+          "latitude": null,
+          "longitude": null,
+          "id": "b99776b1-5edc-4f80-868f-c4deac7f8018"
+        }
+      },
+      {
+        "label": "c7152895-58fb-4832-b80f-74f489bd27e0",
+        "value": 54,
+        "entity": {
+          "__typename": "Country",
+          "__isBasicObject": "Country",
+          "entity_type": "Country",
+          "name": "Canada",
+          "x_opencti_aliases": [
+            "CAN",
+            "CA"
+          ],
+          "latitude": 56.130366,
+          "longitude": -106.346771,
+          "id": "c7152895-58fb-4832-b80f-74f489bd27e0"
+        }
+      },
+      {
+        "label": "59ab7470-d7fd-44a1-b48d-909194d11cb1",
+        "value": 52,
+        "entity": {
+          "__typename": "Country",
+          "__isBasicObject": "Country",
+          "entity_type": "Country",
+          "name": "Taiwan",
+          "x_opencti_aliases": [
+            "TW",
+            "TWA",
+            "TWN"
+          ],
+          "latitude": 25.105497,
+          "longitude": 121.597366,
+          "id": "59ab7470-d7fd-44a1-b48d-909194d11cb1"
+        }
+      },
+      {
+        "label": "215c2c60-7117-4a09-8394-2d3a9e54a127",
+        "value": 50,
+        "entity": {
+          "__typename": "Country",
+          "__isBasicObject": "Country",
+          "entity_type": "Country",
+          "name": "Peru",
+          "x_opencti_aliases": [
+            "PER",
+            "PE"
+          ],
+          "latitude": -9.189967,
+          "longitude": -75.015152,
+          "id": "215c2c60-7117-4a09-8394-2d3a9e54a127"
+        }
+      },
+      {
+        "label": "410dc044-e396-4c6d-a792-9d6e933163b9",
+        "value": 50,
+        "entity": {
+          "__typename": "Country",
+          "__isBasicObject": "Country",
+          "entity_type": "Country",
+          "name": "Korea, Republic of",
+          "x_opencti_aliases": null,
+          "latitude": null,
+          "longitude": null,
+          "id": "410dc044-e396-4c6d-a792-9d6e933163b9"
+        }
+      },
+      {
+        "label": "d2c31613-691a-439e-b075-dce6b47da10d",
+        "value": 50,
+        "entity": {
+          "__typename": "Country",
+          "__isBasicObject": "Country",
+          "entity_type": "Country",
+          "name": "United Kingdom of Great Britain and Northern Ireland",
+          "x_opencti_aliases": [
+            "GB",
+            "GBR"
+          ],
+          "latitude": 55.378051,
+          "longitude": -3.435973,
+          "id": "d2c31613-691a-439e-b075-dce6b47da10d"
+        }
+      },
+      {
+        "label": "d9c32fe4-aa0c-4487-9861-e2b8d16f1b19",
+        "value": 46,
+        "entity": {
+          "__typename": "Country",
+          "__isBasicObject": "Country",
+          "entity_type": "Country",
+          "name": "Hong Kong",
+          "x_opencti_aliases": null,
+          "latitude": null,
+          "longitude": null,
+          "id": "d9c32fe4-aa0c-4487-9861-e2b8d16f1b19"
+        }
+      },
+      {
+        "label": "fc1723bd-a61c-49d8-9b77-1bdb34dc38a0",
+        "value": 46,
+        "entity": {
+          "__typename": "Country",
+          "__isBasicObject": "Country",
+          "entity_type": "Country",
+          "name": "Mexico",
+          "x_opencti_aliases": [
+            "MEX",
+            "MX"
+          ],
+          "latitude": 23.634501,
+          "longitude": -102.552784,
+          "id": "fc1723bd-a61c-49d8-9b77-1bdb34dc38a0"
+        }
+      },
+      {
+        "label": "f4b753e5-395f-4688-8f62-fa31a9f5b7f4",
+        "value": 39,
+        "entity": {
+          "__typename": "Country",
+          "__isBasicObject": "Country",
+          "entity_type": "Country",
+          "name": "Romania",
+          "x_opencti_aliases": [
+            "ROU",
+            "RO"
+          ],
+          "latitude": 45.943161,
+          "longitude": 24.96676,
+          "id": "f4b753e5-395f-4688-8f62-fa31a9f5b7f4"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "data": {
+    "stixCoreRelationshipsDistribution": [
+      {
+        "label": "01cebb0f-f563-4360-83db-d6dd590bede5",
+        "value": 1,
+        "entity": {
+          "__typename": "Malware",
+          "__isBasicObject": "Malware",
+          "entity_type": "Malware",
+          "name": "OS X",
+          "description": "",
+          "id": "01cebb0f-f563-4360-83db-d6dd590bede5"
+        }
+      },
+      {
+        "label": "0a619e6a-3836-4ba9-b460-68785908e801",
+        "value": 1,
+        "entity": {
+          "__typename": "Malware",
+          "__isBasicObject": "Malware",
+          "entity_type": "Malware",
+          "name": "DPysMac64",
+          "description": "",
+          "id": "0a619e6a-3836-4ba9-b460-68785908e801"
+        }
+      },
+      {
+        "label": "0c8c077e-d341-46a6-b048-da41ffd6959a",
+        "value": 1,
+        "entity": {
+          "__typename": "Malware",
+          "__isBasicObject": "Malware",
+          "entity_type": "Malware",
+          "name": "UNC3886",
+          "description": "",
+          "id": "0c8c077e-d341-46a6-b048-da41ffd6959a"
+        }
+      },
+      {
+        "label": "15c7d7b1-8b60-44d4-893e-6b08f1ec40f0",
+        "value": 1,
+        "entity": {
+          "__typename": "Malware",
+          "__isBasicObject": "Malware",
+          "entity_type": "Malware",
+          "name": "FOXGLOVE",
+          "description": "",
+          "id": "15c7d7b1-8b60-44d4-893e-6b08f1ec40f0"
+        }
+      },
+      {
+        "label": "21a9bea3-e079-4733-8ffe-08a58187ee89",
+        "value": 1,
+        "entity": {
+          "__typename": "Malware",
+          "__isBasicObject": "Malware",
+          "entity_type": "Malware",
+          "name": "Arkei",
+          "description": "",
+          "id": "21a9bea3-e079-4733-8ffe-08a58187ee89"
+        }
+      },
+      {
+        "label": "23c510e2-5306-4ec0-aeb7-6dc6db976626",
+        "value": 1,
+        "entity": {
+          "__typename": "Malware",
+          "__isBasicObject": "Malware",
+          "entity_type": "Malware",
+          "name": "REPTILE",
+          "description": "Malpedia entry for elf.reptile",
+          "id": "23c510e2-5306-4ec0-aeb7-6dc6db976626"
+        }
+      },
+      {
+        "label": "2743ab30-edad-4169-94b7-cda8ecbff977",
+        "value": 1,
+        "entity": {
+          "__typename": "Malware",
+          "__isBasicObject": "Malware",
+          "entity_type": "Malware",
+          "name": "FTP Backup",
+          "description": "",
+          "id": "2743ab30-edad-4169-94b7-cda8ecbff977"
+        }
+      },
+      {
+        "label": "29803ebb-8781-4441-b954-8f4e5e71939b",
+        "value": 1,
+        "entity": {
+          "__typename": "Malware",
+          "__isBasicObject": "Malware",
+          "entity_type": "Malware",
+          "name": "BadBazaar",
+          "description": "",
+          "id": "29803ebb-8781-4441-b954-8f4e5e71939b"
+        }
+      },
+      {
+        "label": "3b6c5ebf-1031-4b3b-9208-5a698556ffb7",
+        "value": 1,
+        "entity": {
+          "__typename": "Malware",
+          "__isBasicObject": "Malware",
+          "entity_type": "Malware",
+          "name": "xslcmd",
+          "description": "Malpedia entry for osx.xslcmd",
+          "id": "3b6c5ebf-1031-4b3b-9208-5a698556ffb7"
+        }
+      },
+      {
+        "label": "3ba10a66-17b9-4383-9175-a5c91323595f",
+        "value": 1,
+        "entity": {
+          "__typename": "Malware",
+          "__isBasicObject": "Malware",
+          "entity_type": "Malware",
+          "name": "SNOWLIGHT",
+          "description": "",
+          "id": "3ba10a66-17b9-4383-9175-a5c91323595f"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "data": {
+    "stixCoreRelationshipsDistribution": [
+      {
+        "label": "ff95d515-4bae-4db6-b9cd-1593f0a05755",
+        "value": 877,
+        "entity": {
+          "__typename": "Malware",
+          "__isBasicObject": "Malware",
+          "entity_type": "Malware",
+          "name": "Cobalt Strike",
+          "description": "[Cobalt Strike](https://attack.mitre.org/software/S0154) is a commercial, full-featured, remote access tool that bills itself as “adversary simulation software designed to execute targeted attacks and emulate the post-exploitation actions of advanced threat actors”. Cobalt Strike’s interactive post-exploit capabilities cover the full range of ATT&CK tactics, all executed within a single, integrated system.(Citation: cobaltstrike manual)\n\nIn addition to its own capabilities, [Cobalt Strike](https://attack.mitre.org/software/S0154) leverages the capabilities of other well-known tools such as Metasploit and [Mimikatz](https://attack.mitre.org/software/S0002).(Citation: cobaltstrike manual)",
+          "id": "ff95d515-4bae-4db6-b9cd-1593f0a05755"
+        }
+      },
+      {
+        "label": "d48ee380-6679-4487-9417-fac5ac62f021",
+        "value": 767,
+        "entity": {
+          "__typename": "Region",
+          "__isBasicObject": "Region",
+          "entity_type": "Region",
+          "name": "Asia",
+          "description": "",
+          "id": "d48ee380-6679-4487-9417-fac5ac62f021"
+        }
+      },
+      {
+        "label": "fcb27067-22ef-4006-8c6c-cf6f99c403a6",
+        "value": 686,
+        "entity": {
+          "__typename": "Region",
+          "__isBasicObject": "Region",
+          "entity_type": "Region",
+          "name": "Europe",
+          "description": "",
+          "id": "fcb27067-22ef-4006-8c6c-cf6f99c403a6"
+        }
+      },
+      {
+        "label": "8fda6dad-24d7-496c-af2c-41af41f745ce",
+        "value": 521,
+        "entity": {
+          "__typename": "Malware",
+          "__isBasicObject": "Malware",
+          "entity_type": "Malware",
+          "name": "rat",
+          "description": "",
+          "id": "8fda6dad-24d7-496c-af2c-41af41f745ce"
+        }
+      },
+      {
+        "label": "c6223abe-0e2d-400a-8ef1-b0cd184ef714",
+        "value": 502,
+        "entity": {
+          "__typename": "Malware",
+          "__isBasicObject": "Malware",
+          "entity_type": "Malware",
+          "name": "javascript",
+          "description": "",
+          "id": "c6223abe-0e2d-400a-8ef1-b0cd184ef714"
+        }
+      },
+      {
+        "label": "d4b732f4-d707-4aea-89f6-8dbaffeea718",
+        "value": 464,
+        "entity": {
+          "__typename": "Malware",
+          "__isBasicObject": "Malware",
+          "entity_type": "Malware",
+          "name": "trojan",
+          "description": "",
+          "id": "d4b732f4-d707-4aea-89f6-8dbaffeea718"
+        }
+      },
+      {
+        "label": "a1efd739-2e4b-46c9-9397-086570b490bc",
+        "value": 456,
+        "entity": {
+          "__typename": "Region",
+          "__isBasicObject": "Region",
+          "entity_type": "Region",
+          "name": "Americas",
+          "description": "",
+          "id": "a1efd739-2e4b-46c9-9397-086570b490bc"
+        }
+      },
+      {
+        "label": "f0ece89e-94fc-4dfb-9d8e-b86b8d9bc380",
+        "value": 377,
+        "entity": {
+          "__typename": "Malware",
+          "__isBasicObject": "Malware",
+          "entity_type": "Malware",
+          "name": "android",
+          "description": "",
+          "id": "f0ece89e-94fc-4dfb-9d8e-b86b8d9bc380"
+        }
+      },
+      {
+        "label": "0d28e963-de21-470b-94e0-2678c24effae",
+        "value": 359,
+        "entity": {
+          "__typename": "Malware",
+          "__isBasicObject": "Malware",
+          "entity_type": "Malware",
+          "name": "DarkGate",
+          "description": "",
+          "id": "0d28e963-de21-470b-94e0-2678c24effae"
+        }
+      },
+      {
+        "label": "dc6bfa6b-b7d4-487d-a850-3342272088ea",
+        "value": 352,
+        "entity": {
+          "__typename": "Malware",
+          "__isBasicObject": "Malware",
+          "entity_type": "Malware",
+          "name": "PlugX",
+          "description": "[PlugX](https://attack.mitre.org/software/S0013) is a remote access tool (RAT) with modular plugins that has been used by multiple threat groups.(Citation: Lastline PlugX Analysis)(Citation: FireEye Clandestine Fox Part 2)(Citation: New DragonOK)(Citation: Dell TG-3390)",
+          "id": "dc6bfa6b-b7d4-487d-a850-3342272088ea"
+        }
+      }
+    ]
+  }
+}

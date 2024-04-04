@@ -1,0 +1,190 @@
+{
+  "data": {
+    "stixDomainObjects": {
+      "edges": [
+        {
+          "node": {
+            "__typename": "Report",
+            "id": "a2b35a12-096a-4837-a4de-5ca1de1c9112",
+            "entity_type": "Report",
+            "created_at": "2024-04-03T12:18:05.598Z",
+            "name": "Threat Actors Deliver Malware via YouTube Video Game Cracks",
+            "createdBy": {
+              "__typename": "Organization",
+              "__isIdentity": "Organization",
+              "id": "de9b0d74-c6b4-4a00-95d5-ac1a3108b943",
+              "name": "AlienVault",
+              "entity_type": "Organization"
+            },
+            "objectMarking": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "aa998c08-17e4-4dfa-945b-0399a43a318c",
+                    "definition": "TLP:CLEAR"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "__typename": "Report",
+            "id": "e8c3213a-ff84-4519-87bc-878f5e1c9c11",
+            "entity_type": "Report",
+            "created_at": "2024-04-02T15:16:04.951Z",
+            "name": "SYNC-SCHEDULER: A DEDICATED DOCUMENT STEALER",
+            "createdBy": {
+              "__typename": "Organization",
+              "__isIdentity": "Organization",
+              "id": "de9b0d74-c6b4-4a00-95d5-ac1a3108b943",
+              "name": "AlienVault",
+              "entity_type": "Organization"
+            },
+            "objectMarking": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "aa998c08-17e4-4dfa-945b-0399a43a318c",
+                    "definition": "TLP:CLEAR"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "__typename": "Report",
+            "id": "a8a903cd-f15d-46f0-ad6f-93a6c1922ce3",
+            "entity_type": "Report",
+            "created_at": "2024-04-01T20:46:26.219Z",
+            "name": "\"Hey, This Isn't the Right Site!\" Distribution of Malware Exploiting Google Ads Tracking",
+            "createdBy": {
+              "__typename": "Organization",
+              "__isIdentity": "Organization",
+              "id": "de9b0d74-c6b4-4a00-95d5-ac1a3108b943",
+              "name": "AlienVault",
+              "entity_type": "Organization"
+            },
+            "objectMarking": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "aa998c08-17e4-4dfa-945b-0399a43a318c",
+                    "definition": "TLP:CLEAR"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "__typename": "Report",
+            "id": "9a5d81e1-7ee1-499b-ae50-d4e6c9ae0b76",
+            "entity_type": "Report",
+            "created_at": "2024-04-01T20:31:48.612Z",
+            "name": "Bellingcat Malware Investigation",
+            "createdBy": {
+              "__typename": "Organization",
+              "__isIdentity": "Organization",
+              "id": "de9b0d74-c6b4-4a00-95d5-ac1a3108b943",
+              "name": "AlienVault",
+              "entity_type": "Organization"
+            },
+            "objectMarking": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "aa998c08-17e4-4dfa-945b-0399a43a318c",
+                    "definition": "TLP:CLEAR"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "__typename": "Report",
+            "id": "73a853d2-3538-4a93-937c-ece4cb28a91a",
+            "entity_type": "Report",
+            "created_at": "2024-04-01T20:30:25.226Z",
+            "name": "Passive DNS Pivoting - Uncovering APT Infrastructure Through Historical Records and Subdomain Analysis",
+            "createdBy": {
+              "__typename": "Organization",
+              "__isIdentity": "Organization",
+              "id": "de9b0d74-c6b4-4a00-95d5-ac1a3108b943",
+              "name": "AlienVault",
+              "entity_type": "Organization"
+            },
+            "objectMarking": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "aa998c08-17e4-4dfa-945b-0399a43a318c",
+                    "definition": "TLP:CLEAR"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "__typename": "Report",
+            "id": "f96ab6f6-d76b-4d59-80d6-c27c5afb5310",
+            "entity_type": "Report",
+            "created_at": "2024-04-01T20:15:59.474Z",
+            "name": "Cloud Werewolf attacks government officials in Russia and Belarus",
+            "createdBy": {
+              "__typename": "Organization",
+              "__isIdentity": "Organization",
+              "id": "de9b0d74-c6b4-4a00-95d5-ac1a3108b943",
+              "name": "AlienVault",
+              "entity_type": "Organization"
+            },
+            "objectMarking": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "aa998c08-17e4-4dfa-945b-0399a43a318c",
+                    "definition": "TLP:CLEAR"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "__typename": "Report",
+            "id": "ff0e3da7-41f2-467e-942c-971889db8773",
+            "entity_type": "Report",
+            "created_at": "2024-04-01T09:48:34.780Z",
+            "name": "Malware Spotlight: Linodas aka DinodasRAT for Linux",
+            "createdBy": {
+              "__typename": "Organization",
+              "__isIdentity": "Organization",
+              "id": "de9b0d74-c6b4-4a00-95d5-ac1a3108b943",
+              "name": "AlienVault",
+              "entity_type": "Organization"
+            },
+            "objectMarking": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "aa998c08-17e4-4dfa-945b-0399a43a318c",
+                    "definition": "TLP:CLEAR"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

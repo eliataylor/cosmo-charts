@@ -1,0 +1,46 @@
+{
+  "data": {
+    "stixCyberObservablesDistribution": [
+      {
+        "label": "Ipv4-Addr",
+        "value": 687
+      },
+      {
+        "label": "Domain-Name",
+        "value": 538
+      },
+      {
+        "label": "Stixfile",
+        "value": 502
+      },
+      {
+        "label": "Url",
+        "value": 312
+      },
+      {
+        "label": "Hostname",
+        "value": 176
+      },
+      {
+        "label": "Autonomous-System",
+        "value": 154
+      },
+      {
+        "label": "Email-Addr",
+        "value": 68
+      },
+      {
+        "label": "Ipv6-Addr",
+        "value": 68
+      },
+      {
+        "label": "Email-Message",
+        "value": 56
+      },
+      {
+        "label": "Artifact",
+        "value": 23
+      }
+    ]
+  }
+}
