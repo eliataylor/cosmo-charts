@@ -52,9 +52,11 @@ export const ENDPOINTS = [
     }
 ]
 
+
+
 root.render(
   <React.StrictMode>
-    <App endpoints={ENDPOINTS} />
+    <App endpoints={ENDPOINTS}  />
   </React.StrictMode>
 );
 

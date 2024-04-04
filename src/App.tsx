@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { Select, MenuItem, FormControl, InputLabel, Box, SelectChangeEvent } from '@mui/material';
-import JsonViewer from './JsonViewer';
+import React, {useEffect, useState} from 'react';
+import {Box, FormControl, Grid, InputLabel, MenuItem, Select, SelectChangeEvent} from '@mui/material';
+import EndpointContainer from "./EndpointContainer";
 
 interface DataItem {
     path: string;
@@ -58,11 +58,13 @@ const App: React.FC<Props> = ({ endpoints }) => {
                     ))}
                 </Select>
             </FormControl>
-            <Box mt={2}>
+            <Grid container justifyContent={'space-between'} spacing={2}>
                 {selectedItems.map(item => (
-                    <JsonViewer key={item.path} jsonData={fetchedData.find(data => data.path === item.path)?.data} />
+                    <Grid item xs={12} sm={6} md={4}  key={item.path} >
+                        <EndpointContainer apiData={fetchedData.find(data => data.path === item.path)?.data} />
+                    </Grid>
                 ))}
-            </Box>
+            </Grid>
         </Box>
     );
 };
